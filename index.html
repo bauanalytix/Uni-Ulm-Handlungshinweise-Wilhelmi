@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uni Ulm – Handlungshinweise Wilhelmi</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-left {
+  height: 45px;
+  object-fit: contain;
+}
+
+.logo-right {
+  height: 50px;
+  object-fit: contain;
+}
+
+h1, h2 {
+  color: #a30000;
+}
+
+.box {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.02em;
+  line-height: 1.5;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  background: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #a30000;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.45;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #a30000;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+a.button:hover {
+  background: #7f0000;
+}
+
+.placeholder {
+  border: 1px dashed #bbb;
+  background: #fafafa;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 750px) {
+  .link-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="header">
+    <img src="bauanalytix.jpg" alt="bauanalytix" class="logo-left" onerror="this.style.display='none'">
+    <img src="vub.png" alt="Vermögen und Bau" class="logo-right" onerror="this.style.display='none'">
+  </div>
+
+  <div class="box">
+    <h1>Uni Ulm – Handlungshinweise Wilhelmi-Deckenplatten</h1>
+    <p class="intro">
+      Diese Seite bündelt die aktuell verfügbaren Unterlagen für den Rückbau alter
+      Wilhelmi-Deckenplatten mit aufliegender alter künstlicher Mineralfaser (KMF).
+      Die Unterlagen dienen der Orientierung für Arbeitsschutz, Nutzerschutz und die
+      Festlegung geeigneter Schutzmaßnahmen.
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Unterlagen</h2>
+
+    <div class="link-grid">
+
+      <div class="card">
+        <h3>Handlungsanweisung Wilhelmi-Deckenplatten</h3>
+        <p>
+          Praxisbezogene Handlungsanweisung für den Rückbau alter Wilhelmi-Deckenplatten
+          mit aufliegender alter KMF. Enthalten sind Hinweise zu Arbeitsschutz,
+          Nutzerschutz, Vorbereitung, Durchführung und Abschluss der Arbeiten.
+        </p>
+        <a class="button" href="Ausbau alte Wilhelmi-Deckenplatten mit aufliegender alter KMF.pdf" target="_blank">
+          Handlungsanweisung öffnen
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>TRGS 521</h3>
+        <p>
+          Technische Regel für Gefahrstoffe: Tätigkeiten mit alter Mineralwolle.
+          Grundlage für Gefährdungsbeurteilung, Expositionskategorien und Schutzmaßnahmen.
+        </p>
+        <a class="button" href="TRGS-521 Neu 04.05.2026.pdf" target="_blank">
+          TRGS 521 öffnen
+        </a>
+      </div>
+
+      <div class="card placeholder">
+        <h3>Geplante Erweiterung</h3>
+        <p>
+          Ein Handlungstool Wilhelmi ist derzeit in Entwicklung.
+          Diese Funktion soll zukünftig die strukturierte Planung, Durchführung
+          und Dokumentation von Arbeiten an Wilhelmi-Deckenplatten unterstützen.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Hinweis</h2>
+    <p class="note">
+      Diese Seite ersetzt keine tätigkeitsbezogene Gefährdungsbeurteilung.
+      Vor Beginn der Arbeiten sind die konkreten Randbedingungen vor Ort zu prüfen
+      und die erforderlichen Schutzmaßnahmen festzulegen.
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
